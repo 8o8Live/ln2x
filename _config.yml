@@ -2,9 +2,9 @@ url: https://8o8live.github.io/ln2x/
 baseurl: 
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: LN2X
+email: lallen@ln2x.io
+description: "LN2X is your trusted technology partner, specializing in low-code web app development, content creation, mentoring, AI integration, and more. We empower businesses and individuals with cutting-edge solutions and expert guidance. Harness the power of innovation with LN2X and transform your digital landscape today"
 
 
 # Team names, titles and social links
@@ -57,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 3rd Floor Office, 207 Regent Street
+  - line: London, England, W1B 3HH 
 
 # Build settings
 markdown: kramdown
