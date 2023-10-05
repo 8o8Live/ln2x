@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="post-preview">
+        <!-- Add your post title here -->
+        <h2 class="post-title">{{ page.title }}</h2>
+        <!-- Add the post date here -->
+        <p class="post-meta">Posted on {{ page.date | date: "%B %d, %Y" }}</p>
+        <!-- Include the post content -->
+        {{ content }}
+      </div>
+      <hr>
+      <!-- You can add a back to blog link if needed -->
+      <p><a href="{{ site.baseurl }}/blog/">Back to Blog</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Include the same footer as in default.html -->
+{% include footer.html %}
